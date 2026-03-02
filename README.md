@@ -54,26 +54,47 @@ CORS
 
 Dotenv
 
-📁 Project Structure
 project-root/
 │
 ├── backend/
 │   ├── models/
+│   │   ├── Product.js
+│   │   └── Cart.js
+│   │
 │   ├── routes/
+│   │   ├── productRoutes.js
+│   │   └── cartRoutes.js
+│   │
 │   ├── controllers/
+│   │   ├── productController.js
+│   │   └── cartController.js
+│   │
 │   ├── config/
+│   │   └── db.js
+│   │
 │   ├── server.js
 │   └── .env
 │
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── ProductCard.jsx
+│   │   │   └── SearchBar.jsx
+│   │   │
 │   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   └── Cart.jsx
+│   │   │
 │   │   ├── services/
+│   │   │   └── api.js
+│   │   │
 │   │   └── App.jsx
+│   │
 │   └── package.json
 │
 └── README.md
+
 🗄 Database Schema
 📦 Product Schema
 {
